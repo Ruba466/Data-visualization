@@ -19,6 +19,13 @@ Demonstrates labeled axes, colored bars, and a descriptive chart title.
 ### 📊 Bar Chart Output
 ![Bar Chart](Images/bar_chart.png)
 
+### 2. Subplot Program
+This Python program visualizes a dataset using a line plot, bar chart, and pie chart in a single figure with subplots. It uses Matplotlib to display and save the combined chart as an image.
+### 🔧 Code File:
+- `subplot.py`
+### 📊 Bar Chart Output
+![Subpot](Images/subplots_combined.png)
+
 ## 🚀 Getting Started
 
 Make sure you have Python and matplotlib installed:
