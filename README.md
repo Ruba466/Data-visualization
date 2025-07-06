@@ -40,6 +40,28 @@ It displays two subplots side-by-side: a histogram with a KDE curve and a boxplo
 ### 🔧 Code File:
 - `IrisData.ipynb`
 
+### 5. Tips Data Visualization (Histogram, Boxplot, Piechart, Barchart)
+This notebook visualizes the 'tips' dataset using histogram, boxplot, pie chart, and bar chart.
+It demonstrates multi-plot creation with Seaborn and Matplotlib in a 2x2 grid layout.
+
+## 📊 Dataset
+
+This project uses the popular `tips` dataset for visualization.
+
+You can load it in two ways:
+
+1. **Using Seaborn directly** (no need to download anything):
+   ```python
+   import seaborn as sns
+   tips = sns.load_dataset("tips")
+2. **Using a CSV file dowloaded** (if you have tips.csv):
+    ```python
+   import pandas as pd
+   tips = pd.read_csv("tips.csv")
+
+
+### 🔧 Code File:
+- `hist_box_plot.ipynb`
 
 ## 🚀 Getting Started
 
